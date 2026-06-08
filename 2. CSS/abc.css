@@ -5,7 +5,7 @@ p{
     font-family: Georgia;
     line-height: 30px;
 }
-.underline {
+span{
     text-decoration: underline;
 }
 h1{
