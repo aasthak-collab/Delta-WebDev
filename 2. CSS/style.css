@@ -23,6 +23,11 @@ h1, h3{
 nav ul li a{
     color: hotpink;
 }
+/* can be also written as
+nav a{
+    color: hotpink;
+} */
+/* Sibling combinator */
 p + h3{
     text-decoration: underline;
 }
@@ -30,4 +35,40 @@ button{
     background-color: cornflowerblue;
     color: bisque;
 }
-
+/* Child combinator    */
+div > input{
+    background-color: beige;
+}
+/* Attribute selector */
+input[type = "text"]{
+    color: green;
+}
+/* for username this will type text in green color  */
+input[type = "password"]{
+    color: red;
+}
+/* pseudoclass  */
+/* 1. hover(when you put cursor on any text buttton or element)  */
+button:hover {
+    background-color: black;
+    color: white;
+}
+/* 2. active(when we click any button then that button becomes active so we make changes for the moment we click those buttons)  */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+/* now i want that when i go on the paragraph it should turned into green color and bold texts  */
+p:active{
+    font-weight: bold;
+    color: orange;
+}
+/* 3. checked(used in radio button if we want to make changes the moment we tick the checkbox)  */
+input[type = "radio"]:checked + label{
+    color: green;
+    font-weight: bold;
+}
+/* 4. nth-of-type(used when we want changes in repetition of n)  */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
