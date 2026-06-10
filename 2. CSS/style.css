@@ -72,3 +72,13 @@ input[type = "radio"]:checked + label{
 div:nth-of-type(2n){
     background-color: blanchedalmond;
 }
+/* Pseudo element  */
+h1::first-letter {
+    color: black;
+}
+p::first-line {
+    color: blue;
+}
+p::selection {
+    background-color: yellowgreen;
+}
