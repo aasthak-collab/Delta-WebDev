@@ -82,3 +82,7 @@ p::first-line {
 p::selection {
     background-color: yellowgreen;
 }
+/* using !important(to thow the most specific thing..this cant be changed later and this thing will be fixed now) */
+h2 {
+    background-color: antiquewhite !important;
+}
