@@ -8,14 +8,23 @@
     flex-direction: row;
     /* justify-content: space-evenly;  */
     flex-wrap: wrap;
+    align-content: flex-start;
+    /* flex-basis: 50px; */
 }
-
-h1{
+#indigo{
+    flex-grow: 1;
+    max-width: 200px;
+}
+#orr{
+    flex-grow: 1;
+    min-width: 100px;
+}
+h1{ 
     text-align: center;
 }
 #container div{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     color: white;
     text-align: center;
     font-size: 1.5em;
