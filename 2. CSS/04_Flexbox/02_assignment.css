@@ -1,0 +1,43 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(48, 125, 167);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inner{
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+#container div{
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: grey;
+
+}
+/* ans2  */
+.nav{
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgb(6, 181, 212);
+    background-color: rgb(212, 155, 164);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+.option{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 50px;
+}
