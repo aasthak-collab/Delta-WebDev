@@ -28,7 +28,7 @@ h4{
     text-align: right;
 }
 /* ans  */
-@media (max-width: 375px){
+@media (max-width: 375.5px){
     #pets {
        flex-wrap: wrap;
     }
