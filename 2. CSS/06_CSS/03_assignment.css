@@ -22,7 +22,7 @@
 .main{grid-area: main;}
 .footer{grid-area: footer;}
 
-ans2
+/* ans2  */
 
 @media (max-width: 720px){
     .container{
