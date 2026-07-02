@@ -11,15 +11,35 @@
     <!--NAVBAR-->
     <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
         <a href="#" class="navbar-brand">Brand Name</a>
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-link" href="#">Home</a>
             <a class="nav-link" href="#">Contact</a>
             <a class="nav-link" href="#">About us</a>
             <a class="nav-link" href="#">FAQ</a>
+            </div>
         </div>
+        <!--to add the search bar on the top-->
+        <form class="d-flex">
+             <input class="form-control me-2" type="search" placeholder="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>  
     </nav>
+    <!--Adding card below the navbar-->
+
     <div class="container">
     <h2>Bootstrap Demo</h2>
+    <div class="card" style="width: 18rem;">
+      <img src="photo.jpg" class="card-img-top"/>
+      <div class="card-body">
+        <h5 class="card-title">Photography</h5>
+        <p class="card-text">It is an art to capture important things</p>
+        <a href="#" class="btn btn-primary">Know More</a>
+      </div>
+    </div>
     <!--BUTTON GROUP - Group of series of buttons together on a single line or stack them in vertical column-->
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid eius amet, alias architecto molestiae at, nobis sint eveniet ratione dolore possimus blanditiis ut! Quasi corrupti libero sunt sapiente qui.
